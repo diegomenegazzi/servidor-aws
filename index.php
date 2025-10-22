@@ -8,8 +8,10 @@
 <body>
     <?php
         $nome = "Diego Menegazzi";
+        $idade = "35";
         echo "Hoje é dia " . date("dd/mm/yyyy") . "e agora são: " . date("HH:ii:ss");
-        echo "<h1> Meu nome é: $nome </h1>"; 
+        echo "<h1> Meu nome é: $nome </h1>";
+        echo "<h1> Meu nome é: $idade </h1>";
     ?>        
 </body>
 </html>
