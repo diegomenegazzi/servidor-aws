@@ -1,14 +1,11 @@
 name: Implantação na AWS - Lightsail
 
-on:
-  push:
-    branches: [ "main" ]
+on: [push]
     
 jobs:
-  deploy:
+  build:
     name: Deploy
     runs-on: ubuntu-latest
-    environment: production
 
     steps:
     - name: Realizando conferencia dos arquivos
