@@ -1,6 +1,9 @@
 name: Implantação na AWS - Lightsail
 
-on: [push]
+on:
+    push:
+        branches:
+            - main
     
 jobs:
   build:
