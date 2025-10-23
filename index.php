@@ -14,6 +14,7 @@
         echo "<h1> Meu nome é: $nome </h1>";
         echo "<h1> Minha idade é: $idade </h1>";
         echo "<h1> Minha cidade é: $cidade </h1>";
+        echo "<h1> Minha cidade é: $cidade </h1>";
     ?>        
 </body>
 </html>
